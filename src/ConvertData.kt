@@ -1,11 +1,12 @@
 /**
  * Created by TRUNGNGUYENHAU on 5/31/2017.
  */
+
 fun main(args:Array<String>)
 {
-    var num1:Int = 10
+    var num1:Int = 10 + 10
     var num2:Int
-    var str1:String = "100"
+    var str1:String = "100" + "100"
     num2 = str1.toInt()
 
     var num2Float:Float
