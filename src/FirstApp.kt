@@ -4,6 +4,8 @@
 
 fun main(args: Array<String>)
 {
-    print("Hello world\n")
-    println("Welcome to Viet Nam")
+
+    var dep:String?
+    dep = "c"
+    print(dep)
 }
