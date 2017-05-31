@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4883059-e236-455c-b23d-a26ad4698d9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindMyAge.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Priorities.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kotlin31052017/ConvertDataKt.class" afterPath="$PROJECT_DIR$/out/production/Kotlin31052017/ConvertDataKt.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Loop.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kotlin31052017/META-INF/Kotlin31052017.kotlin_module" afterPath="$PROJECT_DIR$/out/production/Kotlin31052017/META-INF/Kotlin31052017.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConvertData.kt" afterPath="$PROJECT_DIR$/src/ConvertData.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,11 +64,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindMyAge.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindMyAge.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindMyAge.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="168">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc;n#main#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Loop.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Loop.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc;n#main#0" expanded="false" />
               </folding>
@@ -104,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/ConvertData.kt" />
         <option value="$PROJECT_DIR$/src/Priorities.kt" />
         <option value="$PROJECT_DIR$/src/FindMyAge.kt" />
+        <option value="$PROJECT_DIR$/src/Loop.kt" />
       </list>
     </option>
   </component>
@@ -178,20 +188,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Kotlin.FindMyAgeKt">
-    <configuration default="false" name="FirstAppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="FirstAppKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Kotlin31052017" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.LoopKt">
     <configuration default="false" name="InputTypeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="InputTypeKt" />
@@ -234,6 +231,19 @@
     <configuration default="false" name="FindMyAgeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="FindMyAgeKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Kotlin31052017" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="LoopKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -618,19 +628,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.FirstAppKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.InputTypeKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.ConvertDataKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.PrioritiesKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.FindMyAgeKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.InputTypeKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.ConvertDataKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.PrioritiesKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.FindMyAgeKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.LoopKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.FindMyAgeKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.PrioritiesKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.ConvertDataKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.InputTypeKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.FirstAppKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.LoopKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.FindMyAgeKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.PrioritiesKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.ConvertDataKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.InputTypeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -644,12 +654,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496195998690</updated>
-      <workItem from="1496196002452" duration="5608000" />
+      <workItem from="1496196002452" duration="7272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5608000" />
+    <option name="totallyTimeSpent" value="7272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1308" height="772" extended-state="0" />
@@ -694,9 +704,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/FindMyAge.kt</url>
+          <line>7</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
@@ -755,8 +773,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FindMyAge.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="168">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loop.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#main#0" expanded="false" />
           </folding>
